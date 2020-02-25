@@ -1,0 +1,15 @@
+{
+  "name": "gojs",
+  "homepage": "https://github.com/NorthwoodsSoftware/GoJS",
+  "version": "2.1.9",
+  "_release": "2.1.9",
+  "_resolution": {
+    "type": "version",
+    "tag": "v2.1.9",
+    "commit": "6c3a947aa9d9155aa5d170263a87b43908b016d3"
+  },
+  "_source": "https://github.com/NorthwoodsSoftware/GoJS.git",
+  "_target": "^2.1.9",
+  "_originalSource": "gojs",
+  "_direct": true
+}
