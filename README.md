@@ -20,5 +20,6 @@ $ bower install gojs
   
 #### Or you can download GoJS library and use it directly
 
+## Run Index.html to view example
 
 
