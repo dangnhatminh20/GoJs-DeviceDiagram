@@ -14,16 +14,16 @@
     <script src="gojs/assets/js/goSamples.js"></script>
 
 </head>
-<body>
-    <div class="">
+<body onload="init()">
+    <div class="" >
         <div id="sample">
             <div style="width: 100%; display: flex; justify-content: space-between; flex-flow: column">
                 <div id="myPaletteDiv" style="height: 60px; background-color: whitesmoke; border: solid 1px black;"></div>
                 <div id="myDiagramDiv" style="flex-grow: 1; height: 500px; border: solid 1px black"></div>
             </div>
             <div style="width: 100%; display: flex; justify-content: flex-end">
-                <button id="SaveButton" onclick="save()">Ghi lại</button>
-                <button onclick="cancle()">Thoát</button>
+                <button id="SaveButton" onclick="save()">Save</button>
+                <!-- <button onclick="cancle()">Thoát</button> -->
                 <button onclick="load()">Load Data</button>
             </div>
             

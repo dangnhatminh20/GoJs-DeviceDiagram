@@ -1,8 +1,3 @@
-$(function () {
-    init();
-    //load();
-});
-
 //Example use GoJS Basic
 //function init() {
 //    var $ = go.GraphObject.make;

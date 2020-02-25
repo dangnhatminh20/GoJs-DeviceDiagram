@@ -8,9 +8,9 @@ if (window.require) {
   // declare required libraries and ensure Bootstrap's dependency on jQuery
   require.config({
     paths: {
-      "highlight": "../assets/js/highlight",
-      "jquery": "../assets/js/jquery.min", // 1.11.3
-      "bootstrap": "../assets/js/bootstrap.min"
+      "highlight": "highlight",
+      "jquery": "jquery.min", // 1.11.3
+      "bootstrap": "bootstrap.min"
     },
     shim: {
       "bootstrap": ["jquery"]
@@ -33,7 +33,7 @@ if (window.require) {
       var selt = document.createElement("script");
       selt.async = false;
       selt.defer = false;
-      selt.src = "../assets/js/" + filename;
+      selt.src = "./gojs/assets/js/" + filename;
       script.parentNode.insertBefore(selt, script.nextSibling);
       script = selt;
     }
@@ -46,19 +46,19 @@ var head = document.getElementsByTagName("head")[0];
 var link = document.createElement("link");
 link.type = "text/css";
 link.rel = "stylesheet";
-link.href = "../assets/css/bootstrap.min.css";
+link.href = "./gojs/assets/css/bootstrap.min.css";
 head.appendChild(link);
 
 link = document.createElement("link");
 link.type = "text/css";
 link.rel = "stylesheet";
-link.href = "../assets/css/highlight.css";
+link.href = "./gojs/assets/css/highlight.css";
 head.appendChild(link);
 
 link = document.createElement("link");
 link.type = "text/css";
 link.rel = "stylesheet";
-link.href = "../assets/css/main.css";
+link.href = "./gojs/assets/css/main.css";
 head.appendChild(link);
 
 function goSamples() {
