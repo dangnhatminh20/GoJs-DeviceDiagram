@@ -1,4 +1,4 @@
-# GoJs-DeviceDiagram
+# GoJs-DeviceDiagram + Convert file json to xml and download file xml
 
 This is example of Device Diagram. Using GoJS Library.
 
